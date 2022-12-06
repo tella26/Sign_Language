@@ -1,0 +1,404 @@
+
+[
+    {
+        "gloss": "color",
+        "label": 0
+    },
+    {
+        "gloss": "accident",
+        "label": 1
+    },
+    {
+        "gloss": "africa",
+        "label": 2
+    },
+    {
+        "gloss": "all",
+        "label": 3
+    },
+    {
+        "gloss":"apple",
+        "label": 4
+    },
+    {
+        "gloss": "basketball",
+        "label": 5
+    },
+    {
+        "gloss": "bed",
+        "label": 6
+    },
+    {
+        "gloss": "before",
+        "label": 7
+    },
+    {
+        "gloss":"bird",
+        "label": 8
+    },
+    {
+        "gloss":"birthday",
+        "label": 9
+    },
+    {
+        "gloss":"black",
+        "label": 10
+    },
+    {
+        "gloss":"blue",
+        "label": 11
+    },
+    {
+        "gloss": "book",
+        "label": 12
+    },
+    {
+        "gloss": "bowling",
+        "label": 13
+    },
+    {
+        "gloss":"brown",
+        "label": 14
+    },
+    {
+        "gloss": "but",
+        "label": 15
+    },
+    {
+        "gloss": "can",
+        "label": 16
+    },
+    {
+        "gloss": "candy",
+        "label": 17
+    },
+    {
+        "gloss": "chair",
+        "label": 18
+    },
+    {
+        "gloss": "change",
+        "label": 19
+    },
+    {
+        "gloss": "cheat",
+        "label": 20
+    },
+    {
+        "gloss": "city",
+        "label": 21
+    },
+    {
+        "gloss": "clothes",
+        "label": 22
+    },
+    {
+        "gloss": "computer",
+        "label": 23
+    },
+    {
+        "gloss": "cook",
+        "label": 24
+    },
+    {
+        "gloss": "cool",
+        "label": 25
+    },
+    {
+        "gloss": "corn",
+        "label" : 26
+    },
+    {
+        "gloss": "cousin",
+        "label" : 27
+    },
+    {
+        "gloss": "cow",
+        "label": 28
+    },
+    {
+        "gloss": "dance",
+        "label": 29
+    },
+    {
+        "gloss": "dark",
+        "label": 30
+    },
+    {
+        "gloss": "deaf",
+        "label": 31
+    },
+    {
+        "gloss": "decide",
+        "label": 32
+    },
+    {
+        "gloss": "doctor",
+        "label": 33
+    },
+    {
+        "gloss": "dog",
+        "label": 34
+    },
+    {
+        "gloss": "drink",
+        "label": 35
+    },
+    {
+        "gloss": "eat",
+        "label": 36
+    },
+    {
+        "gloss": "enjoy",
+        "label": 37
+    },
+    {
+        "gloss": "family",
+        "label": 38
+    },
+    {
+        "gloss": "fine",
+        "label": 39
+    },
+    {
+        "gloss": "finish",
+        "label": 40
+    },
+    {
+        "gloss": "fish",
+        "label": 41
+    },
+    {
+        "gloss": "forget",
+        "label": 42
+    },
+    {
+        "gloss": "full",
+        "label": 43
+    },
+    {
+        "gloss": "give",
+        "label": 44
+    },
+    {
+        "gloss": "go",
+        "label": 45
+    },
+    {
+        "gloss": "graduate",
+        "label": 46
+    },
+    {
+        "gloss": "hat",
+        "label": 47
+    },
+    {
+        "gloss": "hearing",
+        "label": 48
+    },
+    {
+        "gloss": "help",
+        "label": 49
+    },
+    {
+        "gloss": "hot",
+        "label": 50
+    },
+    {
+        "gloss": "how",
+        "label": 51
+    },
+    {
+        "gloss": "jacket",
+        "label": 52
+    },
+    {
+        "gloss": "kiss",
+        "label": 53
+    },
+    {
+        "gloss": "language",
+        "label": 54
+    },
+    {
+        "gloss": "last",
+        "label": 55
+    },
+    {
+        "gloss": "later",
+        "label": 56
+    },
+    {
+        "gloss": "letter",
+        "label": 57
+    },
+    {
+        "gloss": "like",
+        "label": 58
+    },
+    {
+        "gloss": "man",
+        "label": 59
+    },
+    {
+        "gloss": "many",
+        "label": 60
+    },
+    {
+        "gloss": "medicine",
+        "label": 61
+    },
+    {
+        "gloss": "meet",
+        "label": 62
+    },
+    {
+        "gloss": "mother",
+        "label": 63
+    },
+    {
+        "gloss": "need",
+        "label": 64
+    },
+    {
+        "gloss": "no",
+        "label": 65
+    },
+    {
+        "gloss": "now",
+        "label": 66
+    },
+    {
+        "gloss":"orange",
+        "label": 67
+    },
+    {
+        "gloss": "paint",
+        "label": 68
+    },
+    {
+        "gloss": "paper",
+        "label": 69
+    },
+    {
+        "gloss": "pink",
+        "label": 70
+    },
+    {
+        "gloss": "pizza",
+        "label": 71
+    },
+    {
+        "gloss": "play",
+        "label": 72
+    },
+    {
+        "gloss": "pull",
+        "label": 73
+    },
+    {
+        "gloss": "purple",
+        "label": 74
+    },
+    {
+        "gloss": "right",
+        "label": 75
+    },
+    {
+        "gloss": "same",
+        "label": 76
+    },
+    {
+        "gloss": "school",
+        "label": 77
+    },
+    {
+        "gloss": "secretary",
+        "label": 78
+    },
+    {
+        "gloss": "shirt",
+        "label": 79
+    },
+    {
+        "gloss": "short",
+        "label": 80
+    },
+    {
+        "gloss": "son",
+        "label": 81
+    },
+    {
+        "gloss": "study",
+        "label": 82
+    },
+    {
+        "gloss": "table",
+        "label": 83
+    },
+    {
+        "gloss": "tall",
+        "label": 84
+    },
+    {
+        "gloss": "tell",
+        "label": 85
+    },
+    {
+        "gloss": "thanksgiving",
+        "label": 86
+    },
+    {
+        "gloss": "thin",
+        "label": 87
+    },
+    {
+        "gloss": "thursday",
+        "label": 88
+    },
+    {
+        "gloss": "time",
+        "label": 89
+    },
+    {
+        "gloss": "walk",
+        "label": 90
+    },
+    {
+        "gloss": "want",
+        "label": 91
+    },
+    {
+        "gloss": "what",
+        "label": 92
+    },
+    {
+        "gloss": "white",
+        "label": 93
+    },
+    {
+        "gloss": "who",
+        "label": 94
+    },
+    {
+        "gloss": "woman",
+        "label": 95
+    },
+    {
+        "gloss": "work",
+        "label": 96
+    },
+    {
+        "gloss": "wrong",
+        "label": 97
+    },
+    {
+        "gloss": "year",
+        "label": 98
+    },
+    {
+        "gloss": "yes",
+        "label": 99
+    }
+]
+
