@@ -193,28 +193,10 @@ def read_pose_file(filepath, video_id):
         littleDIP_0_Y = content[0]['littleDIP_0_Y']
 
         # 
-        x = literal_eval(indexPIP_0_X) + literal_eval(indexPIP_1_X) + literal_eval(leftElbow_X) + literal_eval(ringPIP_1_X) + literal_eval(ringPIP_0_X) + literal_eval(littleDIP_0_X) + literal_eval(littleDIP_1_X) + literal_eval(littlePIP_0_X) + literal_eval(littlePIP_1_X) + literal_eval(rightElbow_X) + literal_eval(leftWrist_X) + literal_eval(leftShoulder_X)# + literal_eval(leftEar_X) + literal_eval(nose_X) + literal_eval(rightEar_X) + literal_eval(thumbIP_0_X) + literal_eval(thumbIP_1_X) +  literal_eval(rightShoulder_X) + literal_eval(indexMCP_0_X) + literal_eval(indexMCP_1_X) + literal_eval(indexTip_1_X) + literal_eval(indexTip_0_X) + literal_eval(thumbMP_0_X) + literal_eval(thumbMP_1_X) + literal_eval(ringDIP_1_X) +  literal_eval(ringDIP_0_X) + literal_eval(leftEye_X) + literal_eval(littleMCP_1_X) + literal_eval(littleMCP_0_X) + literal_eval(middleDIP_0_X) + literal_eval(middleDIP_1_X) + literal_eval(ringTip_0_X) + literal_eval(ringTip_1_X) + literal_eval(rightEye_X) + literal_eval(wrist_1_X) + literal_eval(wrist_0_X) + literal_eval(littleTip_1_X) + literal_eval(littleTip_0_X) +  literal_eval(neck_X) + literal_eval(middlePIP_0_X) + literal_eval(middlePIP_1_X) + literal_eval(indexDIP_0_X) + literal_eval(indexDIP_1_X) + literal_eval(thumbCMC_0_X) + literal_eval(thumbCMC_1_X) + literal_eval(ringMCP_0_X) + literal_eval(ringMCP_1_X) +  literal_eval(middleTip_1_X) + literal_eval(middleTip_0_X) + literal_eval(thumbTip_0_X) + literal_eval(thumbTip_1_X) + literal_eval(middleMCP_0_X) + literal_eval(middleMCP_1_X) + literal_eval(rightWrist_X) 
+        x = literal_eval(indexPIP_0_X) + literal_eval(indexPIP_1_X) + literal_eval(leftElbow_X) + literal_eval(ringPIP_1_X) + literal_eval(ringPIP_0_X) + literal_eval(littleDIP_0_X) + literal_eval(littleDIP_1_X) + literal_eval(littlePIP_0_X) + literal_eval(littlePIP_1_X) + literal_eval(rightElbow_X) + literal_eval(leftWrist_X) + literal_eval(leftShoulder_X) + literal_eval(leftEar_X) + literal_eval(nose_X) + literal_eval(rightEar_X) + literal_eval(thumbIP_0_X) + literal_eval(thumbIP_1_X) +  literal_eval(rightShoulder_X) + literal_eval(indexMCP_0_X) + literal_eval(indexMCP_1_X) + literal_eval(indexTip_1_X) + literal_eval(indexTip_0_X) + literal_eval(thumbMP_0_X) + literal_eval(thumbMP_1_X) + literal_eval(ringDIP_1_X) +  literal_eval(ringDIP_0_X) + literal_eval(leftEye_X) + literal_eval(littleMCP_1_X) + literal_eval(littleMCP_0_X) + literal_eval(middleDIP_0_X) + literal_eval(middleDIP_1_X) + literal_eval(ringTip_0_X) + literal_eval(ringTip_1_X) + literal_eval(rightEye_X) + literal_eval(wrist_1_X) + literal_eval(wrist_0_X) + literal_eval(littleTip_1_X) + literal_eval(littleTip_0_X) +  literal_eval(neck_X) #+ literal_eval(middlePIP_0_X) + literal_eval(middlePIP_1_X) + literal_eval(indexDIP_0_X) + literal_eval(indexDIP_1_X) + literal_eval(thumbCMC_0_X) + literal_eval(thumbCMC_1_X) + literal_eval(ringMCP_0_X) + literal_eval(ringMCP_1_X) +  literal_eval(middleTip_1_X) + literal_eval(middleTip_0_X) + literal_eval(thumbTip_0_X) + literal_eval(thumbTip_1_X) + literal_eval(middleMCP_0_X) + literal_eval(middleMCP_1_X) + literal_eval(rightWrist_X) 
         #  
-        y = literal_eval(indexPIP_0_Y) + literal_eval(indexPIP_1_Y) + literal_eval(leftElbow_Y) + literal_eval(ringPIP_1_Y) + literal_eval(ringPIP_0_Y) + literal_eval(littleDIP_0_Y) + literal_eval(littleDIP_1_Y) + literal_eval(littlePIP_0_Y) + literal_eval(littlePIP_1_Y) + literal_eval(rightElbow_Y) + literal_eval(leftWrist_Y) + literal_eval(leftShoulder_Y)# + literal_eval(leftEar_Y) + literal_eval(nose_Y) + literal_eval(rightEar_Y) + literal_eval(thumbIP_0_Y) + literal_eval(thumbIP_1_Y) +  literal_eval(rightShoulder_Y) + literal_eval(indexMCP_0_Y) + literal_eval(indexMCP_1_Y) + literal_eval(indexTip_1_Y) + literal_eval(indexTip_0_Y) + literal_eval(thumbMP_0_Y) + literal_eval(thumbMP_1_Y) + literal_eval(ringDIP_1_Y) +  literal_eval(ringDIP_0_Y) + literal_eval(leftEye_Y) + literal_eval(littleMCP_1_Y) + literal_eval(littleMCP_0_Y) + literal_eval(middleDIP_0_Y) + literal_eval(middleDIP_1_Y) + literal_eval(ringTip_0_Y) + literal_eval(ringTip_1_Y) + literal_eval(rightEye_Y) + literal_eval(wrist_1_Y) + literal_eval(wrist_0_Y) + literal_eval(littleTip_1_Y) + literal_eval(littleTip_0_Y) +  literal_eval(neck_Y) + literal_eval(middlePIP_0_Y) + literal_eval(middlePIP_1_Y) + literal_eval(indexDIP_0_Y) + literal_eval(indexDIP_1_Y) + literal_eval(thumbCMC_0_Y) + literal_eval(thumbCMC_1_Y) + literal_eval(ringMCP_0_Y) + literal_eval(ringMCP_1_Y) +  literal_eval(middleTip_1_Y) + literal_eval(middleTip_0_Y) + literal_eval(thumbTip_0_Y) + literal_eval(thumbTip_1_Y) + literal_eval(middleMCP_0_Y) + literal_eval(middleMCP_1_Y) + literal_eval(rightWrist_Y) 
+        y = literal_eval(indexPIP_0_Y) + literal_eval(indexPIP_1_Y) + literal_eval(leftElbow_Y) + literal_eval(ringPIP_1_Y) + literal_eval(ringPIP_0_Y) + literal_eval(littleDIP_0_Y) + literal_eval(littleDIP_1_Y) + literal_eval(littlePIP_0_Y) + literal_eval(littlePIP_1_Y) + literal_eval(rightElbow_Y) + literal_eval(leftWrist_Y) + literal_eval(leftShoulder_Y) + literal_eval(leftEar_Y) + literal_eval(nose_Y) + literal_eval(rightEar_Y) + literal_eval(thumbIP_0_Y) + literal_eval(thumbIP_1_Y) +  literal_eval(rightShoulder_Y) + literal_eval(indexMCP_0_Y) + literal_eval(indexMCP_1_Y) + literal_eval(indexTip_1_Y) + literal_eval(indexTip_0_Y) + literal_eval(thumbMP_0_Y) + literal_eval(thumbMP_1_Y) + literal_eval(ringDIP_1_Y) +  literal_eval(ringDIP_0_Y) + literal_eval(leftEye_Y) + literal_eval(littleMCP_1_Y) + literal_eval(littleMCP_0_Y) + literal_eval(middleDIP_0_Y) + literal_eval(middleDIP_1_Y) + literal_eval(ringTip_0_Y) + literal_eval(ringTip_1_Y) + literal_eval(rightEye_Y) + literal_eval(wrist_1_Y) + literal_eval(wrist_0_Y) + literal_eval(littleTip_1_Y) + literal_eval(littleTip_0_Y) +  literal_eval(neck_Y) #+ literal_eval(middlePIP_0_Y) + literal_eval(middlePIP_1_Y) + literal_eval(indexDIP_0_Y) + literal_eval(indexDIP_1_Y) + literal_eval(thumbCMC_0_Y) + literal_eval(thumbCMC_1_Y) + literal_eval(ringMCP_0_Y) + literal_eval(ringMCP_1_Y) +  literal_eval(middleTip_1_Y) + literal_eval(middleTip_0_Y) + literal_eval(thumbTip_0_Y) + literal_eval(thumbTip_1_Y) + literal_eval(middleMCP_0_Y) + literal_eval(middleMCP_1_Y) + literal_eval(rightWrist_Y) 
         
-        '''
-        # Making them equal length
-        max_length = 0
-        for xs in x:
-            max_length = max(max_length, len(xs))
-
-        for xs in x:
-            xs += [0] * (max_length - len(xs))
-        
-        # Making them equal length
-        max_length = 0
-        for ys in y:
-            max_length = max(max_length, len(ys))
-
-        for ys in y:
-            ys += [0] * (max_length - len(ys))
-            
-        '''  
         x_diff = torch.FloatTensor(compute_difference(x)) / 2
         y_diff = torch.FloatTensor(compute_difference(y)) / 2
 
@@ -239,82 +221,8 @@ def read_pose_file(filepath, video_id):
         torch.save(ft, os.path.join(save_to, id + '_ft.pt'))
 
         xy = ft[:, :2]
-        # angles = torch.atan(ft[:, 110:]) / 90
-        # ft = torch.cat([xy, angles], dim=1)
-        #
+
         return xy , vid
-
-
-'''
-def read_pose_file(filepath):
-    body_pose_exclude = {9, 10, 11, 22, 23, 24, 12, 13, 14, 19, 20, 21}
-
-    try:        content = json.load(open(filepath))["people"][0]
-    except IndexError:
-        return None
-
-    path_parts = os.path.split(filepath)
-
-    frame_id = path_parts[1][:11]
-    vid = os.path.split(path_parts[0])[-1]
-
-    save_to = os.path.join('code/TGCN/features', vid)
-
-    try:
-        ft = torch.load(os.path.join(save_to, frame_id + '_ft.pt'))
-
-        xy = ft[:, :2]
-        # angles = torch.atan(ft[:, 110:]) / 90
-        # ft = torch.cat([xy, angles], dim=1)
-        return xy
-
-    except FileNotFoundError:
-        print(filepath)
-        body_pose = content["pose_keypoints_2d"]
-        left_hand_pose = content["hand_left_keypoints_2d"]
-        right_hand_pose = content["hand_right_keypoints_2d"]
-
-        body_pose.extend(left_hand_pose)
-        body_pose.extend(right_hand_pose)
-
-        x = [v for i, v in enumerate(body_pose) if i % 3 == 0 and i // 3 not in body_pose_exclude]
-        y = [v for i, v in enumerate(body_pose) if i % 3 == 1 and i // 3 not in body_pose_exclude]
-        # conf = [v for i, v in enumerate(body_pose) if i % 3 == 2 and i // 3 not in body_pose_exclude]
-
-        x = 2 * ((torch.FloatTensor(x) / 256.0) - 0.5)
-        y = 2 * ((torch.FloatTensor(y) / 256.0) - 0.5)
-        # conf = torch.FloatTensor(conf)
-
-        x_diff = torch.FloatTensor(compute_difference(x)) / 2
-        y_diff = torch.FloatTensor(compute_difference(y)) / 2
-
-        zero_indices = (x_diff == 0).nonzero()
-
-        orient = y_diff / x_diff
-        orient[zero_indices] = 0
-
-        xy = torch.stack([x, y]).transpose_(0, 1)
-
-        ft = torch.cat([xy, x_diff, y_diff, orient], dim=1)
-
-        path_parts = os.path.split(filepath)
-
-        frame_id = path_parts[1][:11]
-        vid = os.path.split(path_parts[0])[-1]
-
-        save_to = os.path.join('code/TGCN/features', vid)
-        if not os.path.exists(save_to):
-            os.mkdir(save_to)
-        torch.save(ft, os.path.join(save_to, frame_id + '_ft.pt'))
-
-        xy = ft[:, :2]
-        # angles = torch.atan(ft[:, 110:]) / 90
-        # ft = torch.cat([xy, angles], dim=1)
-        #
-        return xy
-
-    # return ft
-'''
 
 class Sign_Dataset(Dataset):
     def __init__(self, index_file_path, pose_root, num_samples, test_index_file=None):
