@@ -37,7 +37,7 @@ def read_pose_file(filepath, video_id):
     vid = content[video_id]["labels"]
     id = content[video_id]["id"]
 
-    save_to = os.path.join('./code/TGCN/features', vid)
+    save_to = os.path.join('../../code/TGCN/features', vid)
 
     try:
         ft = torch.load(os.path.join(save_to, id + '_ft.pt'))
@@ -214,8 +214,8 @@ def read_pose_file(filepath, video_id):
 
         vid = content[video_id]["labels"]
         id = content[video_id]["id"]
-        save_to = os.path.join('./code/TGCN/features', vid)
-        # save_to = os.path.join('./code/TGCN/features', vid)
+        save_to = os.path.join('../../code/TGCN/features', vid)
+        # save_to = os.path.join('../../code/TGCN/features', vid)
         if not os.path.exists(save_to):
             os.mkdir(save_to)
         torch.save(ft, os.path.join(save_to, id + '_ft.pt'))

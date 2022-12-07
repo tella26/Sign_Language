@@ -103,18 +103,18 @@ def run(split_file, pose_data_root, configs, save_model_to=None):
         epoch_val_scores.append(val_score[0])
 
         # save all train test results
-        np.save('./output/epoch_training_losses.npy', np.array(epoch_train_losses))
-        np.save('./output/epoch_training_scores.npy', np.array(epoch_train_scores))
-        np.save('./output/epoch_test_loss.npy', np.array(epoch_val_losses))
-        np.save('./output/epoch_test_score.npy', np.array(epoch_val_scores))
+        np.save('../../output/epoch_training_losses.npy', np.array(epoch_train_losses))
+        np.save('../../output/epoch_training_scores.npy', np.array(epoch_train_scores))
+        np.save('../../output/epoch_test_loss.npy', np.array(epoch_val_losses))
+        np.save('../../output/epoch_test_score.npy', np.array(epoch_val_scores))
 
         if val_score[0] > best_test_acc:
             best_test_acc = val_score[0]
             best_epoch_num = epoch
             # saving the best model
-            torch.save(model.state_dict(), os.path.join('./output/checkpoints/ckpt_t.pth'.format()))
+            torch.save(model.state_dict(), os.path.join('../../output/checkpoints/ckpt_t.pth'.format()))
         else:
-            torch.save(model.state_dict(), os.path.join('./output/checkpoints', 'ckpt_t.pth'.format( )))
+            torch.save(model.state_dict(), os.path.join('../../output/checkpoints', 'ckpt_t.pth'.format( )))
     
     # For testing
     print('Loading saved model for testing...')
@@ -130,12 +130,12 @@ def run(split_file, pose_data_root, configs, save_model_to=None):
     class_names = train_dataset.label_encoder.classes_
     utils.plot_confusion_matrix(train_gts, train_preds, classes=class_names, normalize=False,
                                 save_to='output/train-conf-mat')
-    utils.plot_confusion_matrix(val_gts, val_preds, classes=class_names, normalize=False, save_to='./output/val-conf-mat')
+    utils.plot_confusion_matrix(val_gts, val_preds, classes=class_names, normalize=False, save_to='../../output/val-conf-mat')
     print('Plot saved in the output folder')
 
 if __name__ == "__main__": 
-    #root = './'
-    root = './'
+    #root = '../../'
+    root = '../../'
     
     subset = 'asl100'
     
@@ -143,29 +143,29 @@ if __name__ == "__main__":
     # For converting the csv file data to json
     
     # Training Path
-    # csvFilePath_train = r'./data/WLASL100_train_25fps_normalized.csv'
+    # csvFilePath_train = r'../../data/WLASL100_train_25fps_normalized.csv'
     # csvFilePath_train = r'/content/drive/MyDrive/dataset/Sign-language/WLASL100_train_25fps_normalized.csv' # for google drive
-    jsonFilePath = r'./output/data_json.json'
+    jsonFilePath = r'../../output/data_json.json'
     csv_to_json(csvFilePath_train, jsonFilePath)
     
     
     # validation path
-    # csvFilePath_val = r'./data/WLASL100_val_25fps_normalized.csv'
+    # csvFilePath_val = r'../../data/WLASL100_val_25fps_normalized.csv'
     csvFilePath_val = r'/content/drive/MyDrive/dataset/Sign-language/WLASL100_train_25fps_normalized.csv' # For google drive 
-    jsonFilePath_val = r'./output/data_val_json.json'
+    jsonFilePath_val = r'../../output/data_val_json.json'
     csv_to_json(csvFilePath_val, jsonFilePath_val)
     
  
     # Testing path
-    csvFilePath_test = r'./data/WLASL100_test_25fps_normalized.csv'
+    csvFilePath_test = r'../../data/WLASL100_test_25fps_normalized.csv'
     # csvFilePath_val = r'/content/drive/MyDrive/dataset/Sign-language/WLASL100_test_25fps_normalized.csv' # For google drive 
-    jsonFilePath_test = r'./data/data_test_json.json'
+    jsonFilePath_test = r'../../data/data_test_json.json'
     csv_to_json(csvFilePath_test, jsonFilePath_test)
     
     '''
-    jsonFilePath = r'./data/data_json.json'
-    jsonFilePath_val = r'./data/data_val_json.json'
-    jsonFilePath_test = r'./data/data_test_json.json'
+    jsonFilePath = r'../../data/data_json.json'
+    jsonFilePath_val = r'../../data/data_val_json.json'
+    jsonFilePath_test = r'../../data/data_test_json.json'
     
     split_test_file = os.path.join(root, 'data/{}.json'.format('class_list'))
     split_file = os.path.join(root, 'data/{}.json'.format('class_list'))
