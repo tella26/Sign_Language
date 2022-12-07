@@ -1,7 +1,8 @@
 This repository contains the sign language recognition task. The task is to recognize the sign in each sign’s video. 
-The skeleton of the signer was already extracted using MediaPipe from all the videos’ frames. The code is based on the 
-WLASL: A large-scale dataset for Word-Level American Sign Language [WASL](https://dxli94.github.io/WLASL/)
+The skeleton of the signer was already extracted using MediaPipe from all the videos’ frames. 
 ============================================================================================
+
+#  The code is based on the  WLASL: A large-scale dataset for Word-Level American Sign Language [WASL](https://dxli94.github.io/WLASL/)
 
 The code has implementation of Transformer and TGCN (Temporal Graph Convolutional Networks) for Sign Language. This is assignment for the course ICS590 at King Fahd University of Petroleum and Minerals (KFUPM). 
 
