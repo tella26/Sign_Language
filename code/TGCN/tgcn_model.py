@@ -22,7 +22,7 @@ class GraphConvolution_att(nn.Module):
         self.in_features = in_features
         self.out_features = out_features
         self.weight = Parameter(torch.FloatTensor(in_features, out_features))
-        self.att = Parameter(torch.FloatTensor(1356, 1356))
+        self.att = Parameter(torch.FloatTensor(2712, 2712))
         if bias:
             self.bias = Parameter(torch.FloatTensor(out_features))
         else:
@@ -60,10 +60,10 @@ class GC_Block(nn.Module):
         self.is_resi = is_resi
 
         self.gc1 = GraphConvolution_att(in_features, in_features)
-        self.bn1 = nn.BatchNorm1d(1356 * in_features)
+        self.bn1 = nn.BatchNorm1d(2712 * in_features)
 
         self.gc2 = GraphConvolution_att(in_features, in_features)
-        self.bn2 = nn.BatchNorm1d(1356 * in_features)
+        self.bn2 = nn.BatchNorm1d(2712 * in_features)
 
         self.do = nn.Dropout(p_dropout)
         self.act_f = nn.Tanh()
@@ -97,7 +97,7 @@ class GCN_muti_att(nn.Module):
         self.num_stage = num_stage
 
         self.gc1 = GraphConvolution_att(input_feature, hidden_feature)
-        self.bn1 = nn.BatchNorm1d(1356 * hidden_feature)
+        self.bn1 = nn.BatchNorm1d(2712 * hidden_feature)
 
         self.gcbs = []
         for i in range(num_stage):
