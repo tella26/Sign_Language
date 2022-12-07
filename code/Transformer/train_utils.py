@@ -44,12 +44,15 @@ def train(log_interval, model, train_loader, optimizer, epoch, d_model):
         #X = X[:, :, -1]
         y = y.to(torch.float32)
         out = model(X, y)  # output has dim = (batch, number of classes)
-        #out = out.max(1, keepdim=True)[1]
-        loss = (compute_loss(out, y)) / 1000
+        # out = torch.transpose(out,0,1)
+        # out = out.max(1, keepdim=True)[1]
+        # out = torch.transpose(out,1,0)
+        out = torch.round(((out-torch.min(out))/(torch.max(out)-torch.min(out))) * 100)
+    
+        loss = (compute_loss(out, y)) / 10000
 
         # loss = F.cross_entropy(output, y)
         losses.append(loss.item())
-        out = out * 100
         out = (out.to(torch.int32)) 
         y = y.to(torch.int32)
         # to compute accuracy
@@ -115,23 +118,11 @@ def validation(model, test_loader, epoch, save_to):
             y = y.unsqueeze(0)
             X = torch.transpose(X.squeeze(0),0,1)          
             y = y.to(torch.float32)
-            '''
-            all_output = []
 
-            stride = X.size()[2] // num_copies
-
-            for i in range(num_copies):
-                X_slice = X[:, :, i * stride: (i+2)]
-                output = model(X_slice, y)
-                all_output.append(output)
-
-            all_output = torch.stack(all_output, dim=1)
-            output = torch.mean(all_output, dim=1)
-            '''
             output = model(X, y)  # output has dim = (batch, number of classes)
-
+            output = torch.round(((output-torch.min(output))/(torch.max(output)-torch.min(output))) * 100)
             # loss = F.cross_entropy(pool_out, y, reduction='sum')
-            loss = (compute_loss(output, y)) / 1000
+            loss = (compute_loss(output, y)) / 10000
 
             val_loss.append(loss.item())  # sum up batch loss
             

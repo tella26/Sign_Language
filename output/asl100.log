@@ -100,4 +100,27 @@ INFO:root:Class labels are:
 97 - wrong
 98 - year
 99 - yes
-DEBUG:matplotlib.pyplot:Loaded backend tkagg version unknown.
+INFO:root:========================
+Epoch: 0 Average loss: 1.5691
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 12.0000
+INFO:root:Top-5 acc: 12.0000
+INFO:root:Top-10 acc: 12.0000
+INFO:root:Top-30 acc: 12.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 1 Average loss: 1.8837
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 12.0000
+INFO:root:Top-10 acc: 12.0000
+INFO:root:Top-30 acc: 44.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 2 Average loss: 1.4825
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 9.0000
+INFO:root:Top-30 acc: 9.0000
+DEBUG:root:mislabelled val. instances: []

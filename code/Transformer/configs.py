@@ -6,17 +6,17 @@ class Config:
         config = configparser.ConfigParser()
         config.read(config_path)
         
-        self.batch_size = 10
-        self.max_epochs = 20
+        self.batch_size = 25
+        self.max_epochs = 30
         self.log_interval = 1
         self.num_samples = 20
         self.drop_p = 0.25
-        self.d_model = 10
+        self.d_model = 25
 
 
-        self.init_lr = 0.001
+        self.init_lr = 0.01
         self.adam_eps =  1e-3
-        self.adam_weight_decay = 0
+        self.adam_weight_decay = 0.1
 
         self.hidden_size = 32
         self.num_stages = 10
