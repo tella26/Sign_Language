@@ -1,120 +1,251 @@
 INFO:root:Calling main.run()
-INFO:root:Class labels are: 
-0 - accident
-1 - africa
-2 - all
-3 - apple
-4 - basketball
-5 - bed
-6 - before
-7 - bird
-8 - birthday
-9 - black
-10 - blue
-11 - book
-12 - bowling
-13 - brown
-14 - but
-15 - can
-16 - candy
-17 - chair
-18 - change
-19 - cheat
-20 - city
-21 - clothes
-22 - color
-23 - computer
-24 - cook
-25 - cool
-26 - corn
-27 - cousin
-28 - cow
-29 - dance
-30 - dark
-31 - deaf
-32 - decide
-33 - doctor
-34 - dog
-35 - drink
-36 - eat
-37 - enjoy
-38 - family
-39 - fine
-40 - finish
-41 - fish
-42 - forget
-43 - full
-44 - give
-45 - go
-46 - graduate
-47 - hat
-48 - hearing
-49 - help
-50 - hot
-51 - how
-52 - jacket
-53 - kiss
-54 - language
-55 - last
-56 - later
-57 - letter
-58 - like
-59 - man
-60 - many
-61 - medicine
-62 - meet
-63 - mother
-64 - need
-65 - no
-66 - now
-67 - orange
-68 - paint
-69 - paper
-70 - pink
-71 - pizza
-72 - play
-73 - pull
-74 - purple
-75 - right
-76 - same
-77 - school
-78 - secretary
-79 - shirt
-80 - short
-81 - son
-82 - study
-83 - table
-84 - tall
-85 - tell
-86 - thanksgiving
-87 - thin
-88 - thursday
-89 - time
-90 - walk
-91 - want
-92 - what
-93 - white
-94 - who
-95 - woman
-96 - work
-97 - wrong
-98 - year
-99 - yes
 INFO:root:========================
-Epoch: 0 Average loss: 4.6099
-INFO:root:Top-1 acc: 1.0000
-INFO:root:Top-3 acc: 3.0000
-INFO:root:Top-5 acc: 5.0000
-INFO:root:Top-10 acc: 10.0000
-INFO:root:Top-30 acc: 30.0000
+Epoch: 0 Average loss: 7.8509
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 39.0000
 DEBUG:root:mislabelled val. instances: []
 INFO:root:========================
-Epoch: 1 Average loss: 4.6096
-INFO:root:Top-1 acc: 1.0000
-INFO:root:Top-3 acc: 3.0000
-INFO:root:Top-5 acc: 5.0000
-INFO:root:Top-10 acc: 10.0000
-INFO:root:Top-30 acc: 30.0000
+Epoch: 1 Average loss: 6.2263
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 13.0000
+INFO:root:Top-30 acc: 39.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 2 Average loss: 6.4384
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 13.0000
+INFO:root:Top-10 acc: 13.0000
+INFO:root:Top-30 acc: 26.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 3 Average loss: 3.9853
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 26.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 4 Average loss: 3.3977
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 12.0000
+INFO:root:Top-30 acc: 49.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 5 Average loss: 3.1061
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 15.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 6 Average loss: 3.0533
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 9.0000
+INFO:root:Top-5 acc: 9.0000
+INFO:root:Top-10 acc: 9.0000
+INFO:root:Top-30 acc: 45.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 7 Average loss: 2.7252
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 0.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 8 Average loss: 2.7749
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 15.0000
+INFO:root:Top-5 acc: 15.0000
+INFO:root:Top-10 acc: 24.0000
+INFO:root:Top-30 acc: 49.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 9 Average loss: 2.8188
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 15.0000
+INFO:root:Top-30 acc: 27.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 10 Average loss: 2.7967
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 12.0000
+INFO:root:Top-10 acc: 12.0000
+INFO:root:Top-30 acc: 12.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 11 Average loss: 2.7435
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 12.0000
+INFO:root:Top-30 acc: 34.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 12 Average loss: 2.7526
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 9.0000
+INFO:root:Top-5 acc: 9.0000
+INFO:root:Top-10 acc: 9.0000
+INFO:root:Top-30 acc: 9.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 13 Average loss: 2.7841
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 9.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 14 Average loss: 2.7616
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 9.0000
+INFO:root:Top-30 acc: 21.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 15 Average loss: 2.7703
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 12.0000
+INFO:root:Top-5 acc: 12.0000
+INFO:root:Top-10 acc: 12.0000
+INFO:root:Top-30 acc: 25.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 16 Average loss: 2.7748
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 11.0000
+INFO:root:Top-30 acc: 36.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 17 Average loss: 2.7775
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 13.0000
+INFO:root:Top-30 acc: 28.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 18 Average loss: 2.7621
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 42.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 19 Average loss: 2.7525
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 0.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 20 Average loss: 2.7811
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 28.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 21 Average loss: 2.7797
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 28.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 22 Average loss: 2.7628
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 15.0000
+INFO:root:Top-30 acc: 67.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 23 Average loss: 2.7800
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 23.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 24 Average loss: 2.7627
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 13.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 25 Average loss: 2.8573
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 13.0000
+INFO:root:Top-5 acc: 13.0000
+INFO:root:Top-10 acc: 35.0000
+INFO:root:Top-30 acc: 35.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 26 Average loss: 2.7194
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 9.0000
+INFO:root:Top-5 acc: 9.0000
+INFO:root:Top-10 acc: 9.0000
+INFO:root:Top-30 acc: 36.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 27 Average loss: 2.7812
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 13.0000
+INFO:root:Top-30 acc: 52.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 28 Average loss: 2.7850
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 9.0000
+INFO:root:Top-10 acc: 9.0000
+INFO:root:Top-30 acc: 35.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 29 Average loss: 2.8474
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 0.0000
+INFO:root:Top-5 acc: 0.0000
+INFO:root:Top-10 acc: 0.0000
+INFO:root:Top-30 acc: 15.0000
+DEBUG:root:mislabelled val. instances: []
+INFO:root:========================
+Epoch: 30 Average loss: 2.7832
+INFO:root:Top-1 acc: 0.0000
+INFO:root:Top-3 acc: 15.0000
+INFO:root:Top-5 acc: 15.0000
+INFO:root:Top-10 acc: 28.0000
+INFO:root:Top-30 acc: 43.0000
 DEBUG:root:mislabelled val. instances: []
 DEBUG:matplotlib.pyplot:Loaded backend tkagg version unknown.
 DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
@@ -2329,7 +2460,7 @@ DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
 DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
 DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
 DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 626
-DEBUG:matplotlib.colorbar:locator: <matplotlib.ticker.AutoLocator object at 0x00000209877D2860>
+DEBUG:matplotlib.colorbar:locator: <matplotlib.ticker.AutoLocator object at 0x000002E4C9250B50>
 DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=5.0.
 DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\OWNER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
 DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='C:\\Users\\OWNER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
@@ -3079,7 +3210,7 @@ DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4
 DEBUG:PIL.PngImagePlugin:b'sBIT' 41 4 (unknown)
 DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 57 9
 DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 78 626
-DEBUG:matplotlib.colorbar:locator: <matplotlib.ticker.AutoLocator object at 0x000002098335C2B0>
+DEBUG:matplotlib.colorbar:locator: <matplotlib.ticker.AutoLocator object at 0x000002E4C4E3BCD0>
 INFO:root:Finished main.run()
 DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
 DEBUG:PIL.PngImagePlugin:STREAM b'sBIT' 41 4

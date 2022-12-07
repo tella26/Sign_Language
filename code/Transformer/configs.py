@@ -7,7 +7,7 @@ class Config:
         config.read(config_path)
         
         self.batch_size = 25
-        self.max_epochs = 50
+        self.max_epochs = 20
         self.log_interval = 1
         self.num_samples = 20
         self.drop_p = 0.2

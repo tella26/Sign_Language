@@ -71,13 +71,4 @@ class Sign_Data(Dataset):
         for gloss_entry in content:
             gloss, labels = gloss_entry['gloss'], gloss_entry['label']
 
-            '''
-            for instance in instances:
-    
-                frame_end = instance['frame_end']
-                frame_start = instance['frame_start']
-                video_id = instance['video_id']
 
-                instance_entry = video_id, gloss_cat, frame_start, frame_end
-                self.data.append(instance_entry)
-            '''
