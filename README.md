@@ -25,7 +25,7 @@ cd code/TGCN
 python train_tgcn.py  
 ```
 
-# TGCN Results
+# Transformer Results
 
 ```
 INFO:root:Top-1 acc: 15.0000
