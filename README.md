@@ -24,9 +24,9 @@ cd code/TGCN
 ```
 python train_tgcn.py  
 ```
-```
+
 # TGCN Results
-```
+
 ```
 INFO:root:Top-1 acc: 15.0000
 INFO:root:Top-3 acc: 43.0000
